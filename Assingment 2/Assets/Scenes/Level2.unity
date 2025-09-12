@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
-  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
-  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientSkyColor: {r: 0.12037092, g: 0.069281235, b: 0.19496846, a: 1}
+  m_AmbientEquatorColor: {r: 0.05601043, g: 0.05872765, b: 0.3018868, a: 1}
+  m_AmbientGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 97637a2a763b7f24b8da4e139e4144ca, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 242439039}
   - component: {fileID: 242439038}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Player Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,7 +295,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 93964e622e7482f4c932b29f6410249c, type: 2}
     - target: {fileID: 919132149155446097, guid: 8225d9e262cc0364bad7d71e55ec1029, type: 3}
       propertyPath: m_Name
-      value: maze glass
+      value: Maze Glass
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -368,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5bfa02e26273dc346b49199dc55c654a, type: 2}
     - target: {fileID: 919132149155446097, guid: 1bd7ae111b7d6cb41ad5527ac2479b51, type: 3}
       propertyPath: m_Name
-      value: Franky_Welty_Prop2_002
+      value: Telescope
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -441,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 724ee744601eb5a4ca86acacd28e2b83, type: 2}
     - target: {fileID: 919132149155446097, guid: 60b08015e99fe5349b45208bdbdf656f, type: 3}
       propertyPath: m_Name
-      value: Franky_Welty_Prop5
+      value: Table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -477,7 +477,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.32
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -875,7 +875,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 2a9b34761989385468a3ffc8538b2bf3, type: 2}
     - target: {fileID: 919132149155446097, guid: ae793baf335d0a44b95c4abc5e9fa922, type: 3}
       propertyPath: m_Name
-      value: Franky_Welty_Prop3
+      value: Lantern
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -948,7 +948,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4ea3efa59a38acf48b2d1b1f27ede687, type: 2}
     - target: {fileID: 919132149155446097, guid: 872bd33cdad86cb46bbfb5ab372a2bc1, type: 3}
       propertyPath: m_Name
-      value: franky_Welty_Prop1
+      value: Balloon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
