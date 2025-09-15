@@ -32,7 +32,7 @@ public class PlayerCam : MonoBehaviour
         yRotation += mouseX;
 
         //Rotates Camera Up and Down
-        xRotation += mouseY;
+        yRotation += mouseX;
         //Prevents Camera from flipping over
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
         //rotation for cam and player orientation
