@@ -12,6 +12,6 @@ public class ReturntoStarting : MonoBehaviour
     // Function to load a scene by its build index
     public void LoadSceneByIndex (int sceneIndex)
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(0);
     }
 }

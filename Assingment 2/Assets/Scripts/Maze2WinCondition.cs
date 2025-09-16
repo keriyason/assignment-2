@@ -54,6 +54,6 @@ void WinGame()
 {
     hasWon = true;
     Debug.Log("Player has the key! Maze2 complete!");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
 }
 }

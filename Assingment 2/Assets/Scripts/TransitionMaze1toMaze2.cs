@@ -18,7 +18,7 @@ public class TransitionMaze1toMaze2 : MonoBehaviour
     {
        if (other.tag == "WinCondition")
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
 }

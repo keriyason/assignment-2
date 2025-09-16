@@ -12,6 +12,6 @@ public class SceneChanger : MonoBehaviour
     // Function to load a scene by its build index
     public void LoadSceneByIndex (int sceneIndex)
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
