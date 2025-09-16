@@ -299,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextSceneName: Endcutscene
   winPoint: {x: -1.33, y: 3.7, z: 2.01}
-  winDistance: 10
+  winDistance: 7
   player: {fileID: 121485285}
 --- !u!114 &121485287
 MonoBehaviour:
