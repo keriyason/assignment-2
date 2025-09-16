@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endcutscene.unity
     guid: e9d85dab8798c724fac96c1c3a8e5079
+  - enabled: 1
+    path: Assets/Scenes/Starting Screen.unity
+    guid: 56e2f0f200bcf014a8f964361dddb021
   m_configObjects: {}
